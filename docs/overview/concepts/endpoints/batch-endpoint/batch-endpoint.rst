@@ -9,7 +9,8 @@ Create a Batch Endpoint
 
 Create a batch endpoint hosting one model for batch scoring.
 
-.. code-block:: console
+.. code-block:: bash
+  
   az ml endpoint create --type batch --file examples\endpoints\batch\create-batch-endpoint.yml
 
 
